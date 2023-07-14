@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>General</title>
+        <title lang="de-DE">Allgemein</title>
+
+        <input-field type="bool">
+            <name>active</name>
+            <label>active</label>
+            <label lang="de-DE">aktiv</label>
+        </input-field>
+    </card> <!--General bar configurations-->
+
+    <card>
+        <title>Payment Icons</title>
+        <title lang="de-DE">Payment Icons</title>
+
+        <!-- Payment Logos 1 -->
+        <input-field>
+            <name>paymentLinkOne</name>
+            <copyable>true</copyable>
+            <label>Payment Logo 1</label>
+            <label lang="de-DE">Payment Logo 1</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>paymentLogoOne</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Payment Logos 2 -->
+        <input-field>
+            <name>paymentLinkTwo</name>
+            <copyable>true</copyable>
+            <label>Payment Logo 2</label>
+            <label lang="de-DE">Payment Logo 2</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>paymentLogoTwo</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Repeat the above block for Payment Logos 3 to 10 -->
+
+        <!-- Payment Logos 3 -->
+        <input-field>
+            <name>paymentLinkThree</name>
+            <copyable>true</copyable>
+            <label>Payment Logo 3</label>
+            <label lang="de-DE">Payment Logo 3</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>paymentLogoThree</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Payment Logos 4 -->
+        <input-field>
+            <name>paymentLinkFour</name>
+            <copyable>true</copyable>
+            <label>Payment Logo 4</label>
+            <label lang="de-DE">Payment Logo 4</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>paymentLogoFour</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Repeat the above block for Payment Logos 5 to 10 -->
+
+        <!-- Payment Logos 5 -->
+        <input-field>
+            <name>paymentLinkFive</name>
+            <copyable>true</copyable>
+            <label>Payment Logo 5</label>
+            <label lang="de-DE">Payment Logo 5</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>paymentLogoFive</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Payment Logos 6 -->
+        <input-field>
+            <name>paymentLinkSix</name>
+            <copyable>true</copyable>
+            <label>Payment Logo 6</label>
+            <label lang="de-DE">Payment Logo 6</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>paymentLogoSix</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Repeat the above block for Payment Logos 7 to 10 -->
+
+        <!-- Payment Logos 7 -->
+        <input-field>
+            <name>paymentLinkSeven</name>
+            <copyable>true</copyable>
+            <label>Payment Logo 7</label>
+            <label lang="de-DE">Payment Logo 7</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>paymentLogoSeven</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Payment Logos 8 -->
+        <input-field>
+            <name>paymentLinkEight</name>
+            <copyable>true</copyable>
+            <label>Payment Logo 8</label>
+            <label lang="de-DE">Payment Logo 8</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>paymentLogoEight</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Repeat the above block for Payment Logos 9 and 10 -->
+
+        <!-- Payment Logos 9 -->
+        <input-field>
+            <name>paymentLinkNine</name>
+            <copyable>true</copyable>
+            <label>Payment Logo 9</label>
+            <label lang="de-DE">Payment Logo 9</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>paymentLogoNine</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Payment Logos 10 -->
+        <input-field>
+            <name>paymentLinkTen</name>
+            <copyable>true</copyable>
+            <label>Payment Logo 10</label>
+            <label lang="de-DE">Payment Logo 10</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>paymentLogoTen</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+    </card> <!--Payment-->
+
+    <card>
+        <title>Shipping Icons</title>
+        <title lang="de-DE">Shipping Icons</title>
+
+        <!-- Shipping Logos -->
+        <!-- Shipping Logo 1 -->
+        <input-field>
+            <name>shippingLinkOne</name>
+            <copyable>true</copyable>
+            <label>Shipping Logo 1</label>
+            <label lang="de-DE">Shipping Logo 1</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>shippingLogoOne</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Repeat the above block for Shipping Logos 2 to 10 -->
+
+        <!-- Shipping Logo 2 -->
+        <input-field>
+            <name>shippingLinkTwo</name>
+            <copyable>true</copyable>
+            <label>Shipping Logo 2</label>
+            <label lang="de-DE">Shipping Logo 2</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>shippingLogoTwo</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Repeat the above block for Shipping Logos 3 to 10 -->
+
+        <!-- Shipping Logo 3 -->
+        <input-field>
+            <name>shippingLinkThree</name>
+            <copyable>true</copyable>
+            <label>Shipping Logo 3</label>
+            <label lang="de-DE">Shipping Logo 3</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>shippingLogoThree</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Repeat the above block for Shipping Logos 4 to 10 -->
+
+        <!-- Shipping Logo 4 -->
+        <input-field>
+            <name>shippingLinkFour</name>
+            <copyable>true</copyable>
+            <label>Shipping Logo 4</label>
+            <label lang="de-DE">Shipping Logo 4</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>shippingLogoFour</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Repeat the above block for Shipping Logos 5 to 10 -->
+
+        <!-- Shipping Logo 5 -->
+        <input-field>
+            <name>shippingLinkFive</name>
+            <copyable>true</copyable>
+            <label>Shipping Logo 5</label>
+            <label lang="de-DE">Shipping Logo 5</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>shippingLogoFive</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Repeat the above block for Shipping Logos 6 to 10 -->
+
+        <!-- Shipping Logo 6 -->
+        <input-field>
+            <name>shippingLinkSix</name>
+            <copyable>true</copyable>
+            <label>Shipping Logo 6</label>
+            <label lang="de-DE">Shipping Logo 6</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>shippingLogoSix</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Repeat the above block for Shipping Logos 7 to 10 -->
+
+        <!-- Shipping Logo 7 -->
+        <input-field>
+            <name>shippingLinkSeven</name>
+            <copyable>true</copyable>
+            <label>Shipping Logo 7</label>
+            <label lang="de-DE">Shipping Logo 7</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>shippingLogoSeven</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Shipping Logo 8 -->
+        <input-field>
+            <name>shippingLinkEight</name>
+            <copyable>true</copyable>
+            <label>Shipping Logo 8</label>
+            <label lang="de-DE">Shipping Logo 8</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>shippingLogoEight</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Repeat the above block for Shipping Logos 9 and 10 -->
+
+        <!-- Shipping Logo 9 -->
+        <input-field>
+            <name>shippingLinkNine</name>
+            <copyable>true</copyable>
+            <label>Shipping Logo 9</label>
+            <label lang="de-DE">Shipping Logo 9</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>shippingLogoNine</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+
+        <!-- Shipping Logo 10 -->
+        <input-field>
+            <name>shippingLinkTen</name>
+            <copyable>true</copyable>
+            <label>Shipping Logo 10</label>
+            <label lang="de-DE">Shipping Logo 10</label>
+            <defaultValue>/</defaultValue>
+            <placeholder>Example: https://facebook.com</placeholder>
+            <placeholder lang="de-DE">Beispiel: https://facebook.com</placeholder>
+            <helpText>Add the logo</helpText>
+            <helpText lang="de-DE">Add the logo</helpText>
+        </input-field>
+
+        <component name="sw-media-field">
+            <name>shippingLogoTen</name>
+            <label>Upload media or choose one from the media manager</label>
+            <label lang="de-DE">Media hochladen oder auswählen</label>
+        </component>
+    </card> <!--Shipping-->
+</config>
