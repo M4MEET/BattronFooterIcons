@@ -6,4 +6,5 @@ use Shopware\Core\Framework\Plugin;
 
 class BattronFooterIcons extends Plugin
 {
+
 }
