@@ -7,7 +7,6 @@
              data-collapse-footer="true">
             {% set config = page.footer.extensions.BattronFooterIcons %}
             {% set numberWords = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'] %}
-
             {% block layout_footer_payment_logos %}
                 <div class="col-md-6 footer-column js-footer-column">
                     <div class="footer-column-headline footer-headline js-collapse-footer-column-trigger text-white"
@@ -16,14 +15,10 @@
                          aria-expanded="true"
                          aria-controls="paymentMethods">
                         Einfach Bezahlen
-                        <div class="footer-column-toggle">
-                        <span class="footer-plus-icon">
-                            {% sw_icon 'plus' %}
-                        </span>
-                            <span class="footer-minus-icon">
-                            {% sw_icon 'minus' %}
-                        </span>
-                        </div>
+                            <div class="footer-column-toggle">
+                                <span class="footer-plus-icon">{% sw_icon 'plus' %}</span>
+                                <span class="footer-minus-icon">{% sw_icon 'minus' %}</span>
+                            </div>
                     </div>
                     <div id="paymentMethods" class="footer-column-content collapse js-footer-column-content">
                         <div class="row justify-content-center">
@@ -31,11 +26,11 @@
                                 {% set logoUrl = config['imgArray']['paymentLogo' ~ numberWords[i]] %}
                                 {% set link = config['paymentLink' ~ numberWords[i]] %}
                                 {% if logoUrl and link %}
-                                    <div class="col-md-4 p-2 d-flex justify-content-center align-items-center {% if i == 9 %}col-12 md-auto{% endif %}">
+                                    <div class="col-4 p-2 d-flex justify-content-center align-items-center">
                                         <a href="{{ link }}">
                                             <img src="{{ logoUrl }}"
                                                  alt="Payment Logo {{ numberWords[i] }}"
-                                                 class="img-fluid w-75 mx-auto d-block">
+                                                 class="img-fluid w-75  mx-auto d-block">
                                         </a>
                                     </div>
                                 {% endif %}
@@ -54,12 +49,12 @@
                          aria-controls="shippingMethods">
                         Professioneller Versand
                         <div class="footer-column-toggle">
-                        <span class="footer-plus-icon">
-                            {% sw_icon 'plus' %}
-                        </span>
+                <span class="footer-plus-icon">
+                    {% sw_icon 'plus' %}
+                </span>
                             <span class="footer-minus-icon">
-                            {% sw_icon 'minus' %}
-                        </span>
+                    {% sw_icon 'minus' %}
+                </span>
                         </div>
                     </div>
                     <div id="shippingMethods" class="footer-column-content collapse js-footer-column-content">
@@ -68,11 +63,11 @@
                                 {% set logoUrl = config['imgArray']['shippingLogo' ~ numberWords[i]] %}
                                 {% set link = config['shippingLink' ~ numberWords[i]] %}
                                 {% if logoUrl and link %}
-                                    <div class="col-md-4 p-2 d-flex justify-content-center align-items-center {% if i == 9 %}col-12 md-auto{% endif %}">
+                                    <div class="col-4 p-2 d-flex justify-content-center align-items-center">
                                         <a href="{{ link }}">
                                             <img src="{{ logoUrl }}"
                                                  alt="Shipping Logo {{ numberWords[i] }}"
-                                                 class="img-fluid w-75 mx-auto d-block">
+                                                 class="img-fluid w-75  mx-auto d-block">
                                         </a>
                                     </div>
                                 {% endif %}
@@ -81,7 +76,6 @@
                     </div>
                 </div>
             {% endblock %}
-
         </div>
     {% endblock %}
 {% endblock %}
