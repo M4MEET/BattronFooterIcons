@@ -14,8 +14,8 @@
                          data-target="#paymentMethods"
                          aria-expanded="true"
                          aria-controls="paymentMethods">
-                        Einfach Bezahlen
-                            <div class="footer-column-toggle">
+                        {{'battron.footer.paymentLogo.title' |trans }}
+                        <div class="footer-column-toggle">
                                 <span class="footer-plus-icon">{% sw_icon 'plus' %}</span>
                                 <span class="footer-minus-icon">{% sw_icon 'minus' %}</span>
                             </div>
@@ -47,7 +47,7 @@
                          data-target="#shippingMethods"
                          aria-expanded="true"
                          aria-controls="shippingMethods">
-                        Professioneller Versand
+                            {{ 'battron.footer.shippingLogo.title' |trans  }}
                         <div class="footer-column-toggle">
                 <span class="footer-plus-icon">
                     {% sw_icon 'plus' %}

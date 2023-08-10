@@ -1,0 +1,12 @@
+{
+    "battron": {
+        "footer": {
+            "paymentLogo": {
+                "title": "Einfach Bezahlenn"
+            },
+            "shippingLogo": {
+                "title": "Professioneller Versand"
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "battron": {
+        "footer": {
+            "paymentLogo": {
+                "title": "Payment Method"
+            },
+            "shippingLogo": {
+                "title": "Shipping Method"
+            }
+        }
+    }
+}
