@@ -4,7 +4,7 @@ namespace Battron\BattronFooterIcons\Storefront\Pagelet\Footer\Subscriber;
 
 use Shopware\Core\Content\Media\MediaEntity;
 use Shopware\Core\Framework\Context;
-use Shopware\Core\Framework\DataAbstractionLayer\EntityRepositoryInterface;
+use Shopware\Core\Framework\DataAbstractionLayer\EntityRepository;
 use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
 use Shopware\Core\System\SystemConfig\SystemConfigService;
 use Shopware\Storefront\Pagelet\Footer\FooterPageletLoadedEvent;
@@ -25,7 +25,7 @@ class FooterPageletLoadedSubscriber implements EventSubscriberInterface
 
     public function __construct(
         SystemConfigService $systemConfigService,
-        EntityRepositoryInterface $mediaRepository,
+        EntityRepository $mediaRepository,
         LoggerInterface $loggerInterface
     ) {
         $this->systemConfigService = $systemConfigService;
