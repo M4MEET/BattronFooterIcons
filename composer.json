@@ -1,11 +1,7 @@
 {
   "name": "battron/custom_footer",
   "description": "This plugin allows you to add a header panel with up to three content blocks. Each providing an image icon and a customizable link and text",
-<<<<<<< HEAD
-  "version": "v2.0.0",
-=======
-  "version": "2.0.0",
->>>>>>> master
+  "version": "2.0.1",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "authors": [
